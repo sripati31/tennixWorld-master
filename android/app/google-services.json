@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "786312301828",
+    "project_id": "tennis-1a8ab",
+    "storage_bucket": "tennis-1a8ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786312301828:android:66993ef1892b0980eed451",
+        "android_client_info": {
+          "package_name": "com.prgorammingfever.tennixworldxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786312301828-dce5msd140rmdu0gqk97e2ct5pg6krs3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prgorammingfever.tennixworldxi",
+            "certificate_hash": "19c91ea909566d2c8f3aac9430a8f18e7573fba8"
+          }
+        },
+        {
+          "client_id": "786312301828-b005d1jrojagjpivof6jbev22btlpq9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqpdK60vuUI5sFx_JqzzgPYzRLyDg5PMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786312301828-b005d1jrojagjpivof6jbev22btlpq9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

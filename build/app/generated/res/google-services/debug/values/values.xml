@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">786312301828-b005d1jrojagjpivof6jbev22btlpq9r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">786312301828</string>
+    <string name="google_api_key" translatable="false">AIzaSyDqpdK60vuUI5sFx_JqzzgPYzRLyDg5PMk</string>
+    <string name="google_app_id" translatable="false">1:786312301828:android:66993ef1892b0980eed451</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDqpdK60vuUI5sFx_JqzzgPYzRLyDg5PMk</string>
+    <string name="google_storage_bucket" translatable="false">tennis-1a8ab.appspot.com</string>
+    <string name="project_id" translatable="false">tennis-1a8ab</string>
+</resources>

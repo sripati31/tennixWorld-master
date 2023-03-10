@@ -1,0 +1,421 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prgorammingfever.tennixworldxi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:4:5-80
+15-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:4:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:5:5-81
+16-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:5:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:6:5-65
+17-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:6:22-62
+18
+19    <queries>
+19-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:15
+20        <intent>
+20-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-72
+21-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-69
+22
+23            <data android:mimeType="*/*" />
+23-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+23-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-41
+24        </intent>
+25        <intent>
+25-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:13:9-19:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:13-65
+26-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:21-62
+27
+28            <data
+28-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+29                android:mimeType="*/*"
+29-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-41
+30                android:scheme="*" />
+31        </intent>
+32        <intent>
+32-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:20:9-29:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:13-65
+33-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:21-62
+34
+35            <category android:name="android.intent.category.BROWSABLE" />
+35-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:13-74
+35-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:23-71
+36
+37            <data
+37-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+38                android:host="pay"
+39                android:mimeType="*/*"
+39-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-41
+40                android:scheme="upi" />
+41        </intent>
+42        <intent>
+42-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:30:9-32:18
+43            <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:17-68
+43-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:25-66
+44        </intent>
+45        <intent>
+45-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:33:9-37:18
+46            <action android:name="android.intent.action.SEND" />
+46-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:34:13-65
+46-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:34:21-62
+47
+48            <data android:mimeType="*/*" />
+48-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+48-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:19-41
+49        </intent>
+50        <intent>
+50-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:38:9-40:18
+51            <action android:name="rzp.device_token.share" />
+51-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:39:13-61
+51-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:39:21-58
+52        </intent>
+53    </queries>
+54
+55    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+55-->[:camera_android] C:\Users\DELL\Downloads\tennixWorld-master\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+55-->[:camera_android] C:\Users\DELL\Downloads\tennixWorld-master\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+56    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+56-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+56-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+57
+58    <uses-feature
+58-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+59        android:glEsVersion="0x00020000"
+59-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+60        android:required="true" />
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+61
+62    <application
+62-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:7:4-49:19
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\47dd49272f993b85e913903bf9c8b414\core-1.6.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:icon="@mipmap/ic_launcher"
+65-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:9:9-43
+66        android:label="TennixWorldXI" >
+66-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:8:9-38
+67        <activity
+67-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:10:9-39:20
+68            android:name="com.prgorammingfever.tennixworldxi.MainActivity"
+68-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:11:13-41
+69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+69-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:15:13-163
+70            android:exported="true"
+70-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:12:13-36
+71            android:hardwareAccelerated="true"
+71-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:16:13-47
+72            android:launchMode="singleTop"
+72-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:13:13-43
+73            android:theme="@style/LaunchTheme"
+73-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:14:13-47
+74            android:windowSoftInputMode="adjustResize" >
+74-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:17:13-55
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+82-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:22:13-25:17
+83                android:name="io.flutter.embedding.android.NormalTheme"
+83-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:23:15-70
+84                android:resource="@style/NormalTheme" />
+84-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:24:15-52
+85            <!--
+86                 Displays an Android View that continues showing the launch screen
+87                 Drawable until Flutter paints its first frame, then this splash
+88                 screen fades out. A splash screen is useful to avoid any visual
+89                 gap between the end of Android's launch screen and the painting of
+90                 Flutter's first frame.
+91            -->
+92            <meta-data
+92-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:31:13-34:17
+93                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+93-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:32:15-79
+94                android:resource="@drawable/launch_background" />
+94-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:33:15-61
+95
+96            <intent-filter>
+96-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:35:13-38:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:17-68
+97-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:37:17-76
+99-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:37:27-74
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:40:8-43:70
+103            android:name="com.yalantis.ucrop.UCropActivity"
+103-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:41:12-59
+104            android:screenOrientation="portrait"
+104-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:42:12-48
+105            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+105-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:43:12-68
+106        <!--
+107             Don't delete the meta-data below.
+108             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+109        -->
+110        <meta-data
+110-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:46:9-48:33
+111            android:name="flutterEmbedding"
+111-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:47:13-44
+112            android:value="2" />
+112-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:48:13-30
+113
+114        <service
+114-->[:firebase_auth] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:firebase_auth] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+118            <meta-data
+118-->[:firebase_auth] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+119-->[:firebase_auth] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_auth] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[:firebase_core] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+122-->[:firebase_core] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_core] C:\Users\DELL\Downloads\tennixWorld-master\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+125                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+127        </service>
+128
+129        <provider
+129-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+130            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+130-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-82
+131            android:authorities="com.prgorammingfever.tennixworldxi.flutter.image_provider"
+131-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-74
+132            android:exported="false"
+132-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+133            android:grantUriPermissions="true" >
+133-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+134            <meta-data
+134-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:75
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+136                android:resource="@xml/flutter_image_picker_file_paths" />
+136-->[:image_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-72
+137        </provider>
+138
+139        <activity
+139-->[:url_launcher_android] C:\Users\DELL\Downloads\tennixWorld-master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+140            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+140-->[:url_launcher_android] C:\Users\DELL\Downloads\tennixWorld-master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+141            android:exported="false"
+141-->[:url_launcher_android] C:\Users\DELL\Downloads\tennixWorld-master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+142            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+142-->[:url_launcher_android] C:\Users\DELL\Downloads\tennixWorld-master\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+143
+144        <receiver
+144-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:44:9-51:20
+145            android:name="com.razorpay.RzpTokenReceiver"
+145-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:45:13-57
+146            android:exported="true" >
+146-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:46:13-36
+147            <intent-filter>
+147-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:48:13-50:29
+148                <action android:name="rzp.device_token.share" />
+148-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:39:13-61
+148-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:39:21-58
+149            </intent-filter>
+150        </receiver>
+151
+152        <activity
+152-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:53:9-61:20
+153            android:name="com.razorpay.CheckoutActivity"
+153-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:54:13-57
+154            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+154-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:55:13-83
+155            android:exported="true"
+155-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:56:13-36
+156            android:theme="@style/CheckoutTheme" >
+156-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:57:13-49
+157            <intent-filter>
+157-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:58:13-60:29
+158                <action android:name="android.intent.action.MAIN" />
+158-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:17-68
+158-->C:\Users\DELL\Downloads\tennixWorld-master\android\app\src\main\AndroidManifest.xml:36:25-66
+159            </intent-filter>
+160        </activity>
+161
+162        <meta-data
+162-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:63:9-65:58
+163            android:name="com.razorpay.plugin.googlepay_all"
+163-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:64:13-61
+164            android:value="com.razorpay.RzpGpayMerged" />
+164-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:65:13-55
+165
+166        <uses-library
+166-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+167            android:name="androidx.window.extensions"
+167-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+168            android:required="false" />
+168-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+169        <uses-library
+169-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+170            android:name="androidx.window.sidecar"
+170-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+171            android:required="false" />
+171-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\865a6b8190bb4c8b35dd3ed35142c7dc\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+172
+173        <activity
+173-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+174            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+174-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+175            android:excludeFromRecents="true"
+175-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+176            android:exported="true"
+176-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+177            android:launchMode="singleTask"
+177-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+178-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+179            <intent-filter>
+179-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+180                <action android:name="android.intent.action.VIEW" />
+180-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:13-65
+180-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:21-62
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+182-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+183                <category android:name="android.intent.category.BROWSABLE" />
+183-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:13-74
+183-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:23-71
+184
+185                <data
+185-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+186                    android:host="firebase.auth"
+187                    android:path="/"
+188                    android:scheme="genericidp" />
+189            </intent-filter>
+190        </activity>
+191        <activity
+191-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+192            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+192-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+193            android:excludeFromRecents="true"
+193-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+194            android:exported="true"
+194-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+195            android:launchMode="singleTask"
+195-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+196-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+197            <intent-filter>
+197-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+198                <action android:name="android.intent.action.VIEW" />
+198-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:13-65
+198-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:14:21-62
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+200-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\24d430ed012d40b329021005eb393c44\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+201                <category android:name="android.intent.category.BROWSABLE" />
+201-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:13-74
+201-->[com.razorpay:checkout:1.6.29] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\37dc7a4409c56cb88ed2c4e9decb1072\jetified-checkout-1.6.29\AndroidManifest.xml:23:23-71
+202
+203                <data
+203-->[:file_picker] C:\Users\DELL\Downloads\tennixWorld-master\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-44
+204                    android:host="firebase.auth"
+205                    android:path="/"
+206                    android:scheme="recaptcha" />
+207            </intent-filter>
+208        </activity>
+209
+210        <provider
+210-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+211            android:name="com.google.firebase.provider.FirebaseInitProvider"
+211-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+212            android:authorities="com.prgorammingfever.tennixworldxi.firebaseinitprovider"
+212-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+213            android:directBootAware="true"
+213-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+214            android:exported="false"
+214-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+215            android:initOrder="100" />
+215-->[com.google.firebase:firebase-common:20.3.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\6546db1dc78b6021dc286a303947bc8b\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+216
+217        <activity
+217-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+218            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+218-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+219            android:excludeFromRecents="true"
+219-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+220            android:exported="false"
+220-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+222        <!--
+223            Service handling Google Sign-In user revocation. For apps that do not integrate with
+224            Google Sign-In, this service will never be started.
+225        -->
+226        <service
+226-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+227            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+227-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+228            android:exported="true"
+228-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+229            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+229-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+230            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+230-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\161dcf6edb630ff0016c7080d31d9caa\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+231        <uses-library
+231-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+232            android:name="org.apache.http.legacy"
+232-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+233            android:required="false" />
+233-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\542bbf5b3580c7b901fc31886e076bb5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\671740b70b16767eda19407961282635\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\671740b70b16767eda19407961282635\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\671740b70b16767eda19407961282635\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\671740b70b16767eda19407961282635\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+239
+240        <meta-data
+240-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c9960ccd997ff0807cbaba18d07c7996\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+241            android:name="com.google.android.gms.version"
+241-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c9960ccd997ff0807cbaba18d07c7996\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+242            android:value="@integer/google_play_services_version" />
+242-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c9960ccd997ff0807cbaba18d07c7996\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+243    </application>
+244
+245</manifest>
